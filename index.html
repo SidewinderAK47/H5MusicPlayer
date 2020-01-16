@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        #music_div {
+            width: 500px;
+            height: 300px;
+        }
+        
+        #myCanvas {
+            width:500px;
+            height: 300px;
+        }
+    </style>
+</head>
+<body>
+    <div><span>下面是音乐播放器</span></div>
+    <div id="music_div">
+        <canvas id="myCanvas">
+            
+        </canvas>    
+    </div>
+    <div>
+
+    </div>
+    <div id ="container">
+        <div>
+            <button id="start">上一首</button>
+            <button id="start">播放</button>
+            <button id="stop">停止</button>
+            <button id="start">下一首</button>
+        </div>
+        <audio id="myAudio"  controls autoplay src="Take_Me_Home_Country_Roads.mp3">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+    <!-- <script src="p5.js"></script> -->
+    <!-- <script src="sketch.js"></script> -->
+    <!-- <script link="script.js"></script> -->
+    <script src="./musicplayer.js"></script>
+
+</body>
+</html>
